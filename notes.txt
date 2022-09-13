@@ -22,6 +22,8 @@ symfony console doctrine:database:create (after setting .env file )then run comm
 
 symfony console debug:route (all route list)
 
+symfony console make:crud (before create a entity cz syfony want to your entity name then default crud complete)
+
 
 
 
