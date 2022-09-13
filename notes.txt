@@ -1,0 +1,60 @@
+================================================================
+                        learn Symfony 6
+================================================================
+
+set up development workspace :(need) xamapp/wamp/laragon/self development setup , composer , symfony cli ....etc.
+
+2 way install symfony :: (1). composer (2) symfony new .......
+
+server start: symfony serve OR symfony serve:start
+
+symfony console / symfony console list :: all available commands show
+
+symfony console make:controller PractiseController (2 file create controller command)
+src/PractiseController.php
+templates/practises/index.html.twig
+
+all symfony ........ command is available before install symfony cli 
+
+symfony console debug:router
+
+symfony console doctrine:database:create (after setting .env file )then run command(create database)
+
+symfony console debug:route (all route list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+                 Question & Knowledge in Sympony 
+================================================================
+
+***Q:What is Doctrine?
+...........................
+A:  Symfony provides all the tools you need to use databases in your applications thanks to Doctrine,
+    the best set of PHP libraries to work with databases. These tools support relational databases
+    like MySQL and PostgreSQL and also NoSQL databases like MongoDB.
+
+    The Doctrine Project is the home to several PHP libraries primarily focused on database storage and object mapping.
+    The core projects are the Object Relational Mapper (ORM) and the Database Abstraction Layer (DBAL) it is built upon.
+
+***Q:What is Annotation, Symfony Flex & Logger?
+..........................................
+A:  
+***Q:What is Symfony maker?
+A:
+***Q:What is Entity?
+A: Entity holo databaser akta class.and ai class ta represent kortase databser akta table k. akta entity name mane holo akta table name. 
+
+***Q:What is Symfony maker?
